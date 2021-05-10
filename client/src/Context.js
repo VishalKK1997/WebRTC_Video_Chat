@@ -63,6 +63,7 @@ const ContextProvider = ({ children }) => {
         from: me,
         name,
       });
+      console.log("inside");
     });
 
     peer.on("stream", (currentStream) => {
